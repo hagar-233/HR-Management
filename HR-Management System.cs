@@ -785,13 +785,13 @@ namespace HR_project
                                 break;
                             }
                             line = fs.ReadLine();
-                            if (!found)
+                         
+                        }
+                           if (!found)
                             {
                                 Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("Employee not found!");
                             }
-                        }
-
                     }
                 }
                 if (numcase == 2)
@@ -816,4 +816,5 @@ namespace HR_project
             }
         }   
 } 
+
 
